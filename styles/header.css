@@ -1,5 +1,5 @@
 header{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   /* max-height: 750px; */
   background-image: url(/assets/Background_Intro.png);
   /* object-fit: cover; */
@@ -12,13 +12,37 @@ header{
   .info{
     max-width: 1040px;
     width: 100%;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     color: white;
     
     /* display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: end; */
+
+
+    .list a{
+      text-decoration: none;
+      display: flex;
+      /* flex-direction: column; */
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: white;
+      background-color: var(--gray-300) ;
+      border-radius: 18px;
+      padding-inline: 16px;
+      padding-block: 8px;
+    }
+
+    .list {
+      /* border: 1px solid red; */
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      margin-top: 80px;
+      margin-bottom: 94px;
+    }
 
 
 
@@ -32,7 +56,17 @@ header{
         
     .perfil>img{
           margin-bottom: 64px;
+          border: 2px solid var(--red);
+          border-radius: 50%;
+          padding: 4px;
         }
+      
+    .perfil .dev{
+      border: none;
+      position: relative;
+      right: 40px;
+      top: 8px;
+    }
     
     .perfil .description{
       font: var(--description);
@@ -52,11 +86,18 @@ header{
       margin-bottom: 183px;
     }
 
-    .test{
+    /* .test{
       display: flex;
       flex-direction: row;
-      
+      margin-top: 80px;
+      gap: 16px;
+      justify-content: center;
     }
+
+    .test img{
+      align-self: flex-end;
+      justify-content: end;
+    } */
 
     .perfil p:nth-child(4){
       font: var(--text);
