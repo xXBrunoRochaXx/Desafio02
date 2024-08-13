@@ -1,0 +1,9 @@
+main{
+  background-color: var(--gray-200);
+}
+
+
+.description{
+  font: var(--description);
+  color: var(--red);
+}
