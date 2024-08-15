@@ -1,0 +1,22 @@
+aside{
+  background-color: var(--gray-100);
+ 
+  .services{
+    .header{
+      text-align: center;
+      
+      padding-block: 88px 56px;
+      /* border: 1px solid red ; */
+      /* margin-bottom: 56px; */
+
+      &>h2{
+        margin-block: 8px 56px;
+        font: var(--h2);
+        color: white;
+      }
+    }
+
+
+  }
+}
+
