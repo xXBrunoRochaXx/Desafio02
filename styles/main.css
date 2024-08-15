@@ -1,9 +1,63 @@
 main{
   background-color: var(--gray-200);
+  padding-top: 72px;
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
 }
 
+.header{
+  text-align: center;
+  border: 1px solid red ;
+  margin-bottom: 56px;
+}
 
 .description{
   font: var(--description);
   color: var(--red);
+}
+
+.header h2{
+  font: var(--h2);
+  color: white;
+}
+
+.grid{
+  /* border: 1px solid blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-bottom: 144px;
+  width: 1040px;
+  height: 584px;
+  
+  .card{
+    background-color: var(--gray-300);
+    width: 330px;
+    height: 280px;
+    border-radius: 8px;
+    padding: 12px 12px 0px;
+    
+    img{
+      width: 306px;
+      height: 156px;
+      border-radius: 8px;
+    }
+    h3, p{
+      color: white;
+    }
+
+    h3{
+      font: var(--subtitle);
+      margin-bottom: 8px;
+      padding-top: 20px;
+    }
+
+    p{
+      font: var(--text);
+    }
+
+  }
 }

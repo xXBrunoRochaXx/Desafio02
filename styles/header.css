@@ -104,6 +104,9 @@ header{
       color: var(--gray-400);
     }
 
+    &>img{
+      padding-bottom: 60px;
+    }
   }
 
 }
