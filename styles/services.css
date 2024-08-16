@@ -1,22 +1,51 @@
 aside{
   background-color: var(--gray-100);
- 
+  padding-bottom: 120px;
   .services{
     .header{
       text-align: center;
-      
-      padding-block: 88px 56px;
-      /* border: 1px solid red ; */
-      /* margin-bottom: 56px; */
+      padding-block-start: 88px ;
 
       &>h2{
-        margin-block: 8px 56px;
+        margin-block-start: 8px;
         font: var(--h2);
         color: white;
       }
     }
+  }
 
+  .contact{
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    grid-template-rows: 155px;
+    grid-gap: 24px;
 
+    justify-content: center;
+
+    .card{
+
+      border: 1px solid var(--gray-200);
+      border-radius: 8px;
+      /* margin-bottom: 20px; */
+      &>img{
+        margin: 27.5px 0 27.5px 20px
+      }
+
+      &>h2{
+        font: var(--subtitle);
+        color: white;
+        padding-bottom: 8px;
+      }
+
+      &>p{
+        font: var(--text);
+        color: var(--gray-500);
+      }
+
+      &>h2, p{
+        padding-left: 20px;
+      }
+    }
   }
 }
 
